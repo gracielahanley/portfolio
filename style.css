@@ -1,0 +1,46 @@
+:root {
+    --primary-color: #645cbb;
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+h1,
+h2,
+h3 {
+    display:flex;
+    justify-content: center;
+}
+h2 {
+    font-size: 45px;
+    margin-top: 8rem;
+}
+h1 {
+    font-size: 70px;
+}
+h3 {
+    font-size: 30px;
+}
+a {
+    background-color: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    margin: 20px;
+    border-radius: 4px;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--secondary-color);
+    font-size: 20px;
+}
+@media  (max-width: 600px){ 
+    .middle-text {
+        text-align: center;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h3{
+        font-size: 17px;
+    }
+}
